@@ -4,9 +4,6 @@
 
 It works with TypeScript, JavaScript and DefinitelyTyped(".d.ts") files and gives the same tree as typescriptServices.js.
 
-[![Join the chat at https://gitter.im/TypeScriptAST/Lobby](https://badges.gitter.im/TypeScriptAST/Lobby.svg)](https://gitter.im/TypeScriptAST/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-
 ## Install TypeScriptAST via NuGet
 
 If you want to include TypeScriptAST in your project, you can [install it directly from NuGet](https://www.nuget.org/packages/TypeScriptASTCore/)
@@ -46,9 +43,7 @@ By Node type
 This example included in TypeScriptAstExample. It finds modules in file, collects some info, adds new function to module.
 
 ```csharp
-  using Zu.TypeScript;
-  using Zu.TypeScript.Change;
-  using Zu.TypeScript.TsTypes;
+
   
             var fileName = "parser.ts";
             var source = File.ReadAllText(fileName);
